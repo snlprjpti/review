@@ -26,5 +26,7 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
         ]
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
