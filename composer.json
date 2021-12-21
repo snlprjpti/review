@@ -1,0 +1,25 @@
+{
+    "name": "snlprjpti/reviews",
+    "description": "a review package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunil Prajapati",
+            "email": "snlprjpti@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Review\\Providers\\ReviewServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Review\\": ""
+        }
+    }
+}
